@@ -1,0 +1,82 @@
+/* back ground imaage */
+body {
+   background-image: url(https://images.pexels.com/photos/2747893/pexels-photo-2747893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+/* text styling */
+h1 {
+    color: #0a2463;
+    font-family: 'Irish Grover', cursive;
+}
+h2 {
+    color: #04048b;
+    font-family: 'Irish Grover', cursive;
+}
+/* container size and alignment */
+.container {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+
+}
+/* text box styleing */
+textarea {
+    background-color: #c0c0c0;
+    border: 2px solid black;
+}
+/* gives shape and format to outer 8ball */
+.bigball {
+    border-radius: 100%;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+/* gives shape and alignment to inner circel in 8 ball */
+.smallball {
+    border-radius: 100%;
+    background-color: rgb(76, 63, 63);
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+/* gives the black ball a 3d shine */
+#eightBall {
+    background-image: radial-gradient(closest-corner at  30% 60%, #adb5bd, #343a40, black);
+}
+/* triangle shape */
+.triangle {
+    width: 0; 
+  height: 0; 
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 125px solid #04048b;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+/* puts the text back inside the triangle */
+.triangle p {
+    text-align: center;
+    top: -115px;
+    left: -0px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+
+
+}
